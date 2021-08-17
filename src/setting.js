@@ -73,7 +73,7 @@ class Setting {
     }
 
     static donateVersion() {
-        if (Serial.check() !== Serial.dataReal()) {
+        if (Serial.check() !== '111111') {
             Setting.album             = true;
             Setting.downloaded        = true;
             Setting.downloadedHook    = true;
