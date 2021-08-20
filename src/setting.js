@@ -154,7 +154,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >ดาวน์โหลดด้วยปุ่ม VIP</label><br>
+<label>ดาวน์โหลดด้วยปุ่ม VIP</label><br>
   <div class="form-input">
         <input type="radio" name="downloadWithoutVip" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="downloadWithoutVip" value="off"> <span class="red">ปิด</span>
@@ -162,8 +162,8 @@ class Setting {
   <span>เฉพาะสมาชิกที่เป็น VIP เท่านั้น</span>
 </div>
 
-<div class="form-group donate">
-<label class="donate">[Donate Version] อัลบั้ม</label><br>
+<div class="form-group">
+<label>[Donate Version] อัลบั้ม</label><br>
   <div class="form-input">
         <input type="radio" name="album" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="album" value="off"> <span class="red">ปิด</span>
@@ -171,8 +171,8 @@ class Setting {
   <span>คลิกที่รูปปกเพื่อใช้งาน</span>
 </div>
 
-<div class="form-group donate">
-<label class="donate">[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว</label><br>
+<div class="form-group">
+<label>[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว</label><br>
   <div class="form-input">
         <input type="radio" name="downloaded" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="downloaded" value="off"> <span class="red">ปิด</span>
@@ -181,7 +181,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label class="donate">[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว (ดึงจากรายการ)</label><br>
+<label>[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว (ดึงจากรายการ)</label><br>
   <div class="form-input">
         <input type="radio" name="downloadedHook" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="downloadedHook" value="off"> <span class="red">ปิด</span>
@@ -190,15 +190,15 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >ลบโลโก้ด้านบน</label><br>
+<label>ลบโลโก้ด้านบน</label><br>
   <div class="form-input">
         <input type="radio" name="cleanLogo" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="cleanLogo" value="off"> <span class="red">ปิด</span>
     </div>
 </div>
 
-<div class="form-group donate">
-<label class="donate">[Donate Version] ลบโฆษณา</label><br>
+<div class="form-group">
+<label>[Donate Version] ลบโฆษณา</label><br>
   <div class="form-input">
         <input type="radio" name="cleanDetailBanner" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="cleanDetailBanner" value="off"> <span class="red">ปิด</span>
@@ -207,7 +207,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >ลบไอค่อนดาวน์โหลด</label><br>
+<label>ลบไอค่อนดาวน์โหลด</label><br>
   <div class="form-input">
         <input type="radio" name="cleanDetailDownloadImage" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="cleanDetailDownloadImage" value="off"> <span class="red">ปิด</span>
@@ -216,7 +216,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >ลบคำสั่ง Bookmarks</label><br>
+<label>ลบคำสั่ง Bookmarks</label><br>
   <div class="form-input">
         <input type="radio" name="cleanDetailBookmarks" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="cleanDetailBookmarks" value="off"> <span class="red">ปิด</span>
@@ -225,7 +225,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >ลบคำสั่ง Promote this Torrent</label><br>
+<label>ลบคำสั่ง Promote this Torrent</label><br>
   <div class="form-input">
         <input type="radio" name="cleanDetailPromote" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="cleanDetailPromote" value="off"> <span class="red">ปิด</span>
@@ -233,8 +233,8 @@ class Setting {
   <span>ทำงานเฉพาะในหน้ารายละเอียด</span>
 </div>
 
-<div class="form-group donate">
-<label class="donate">[Donate Version] หมวดหมู่ที่ยกเว้น</label><br>
+<div class="form-group">
+<label>[Donate Version] หมวดหมู่ที่ยกเว้น</label><br>
   <div class="form-input">
         <select name="exceptCategories" multiple>
             <option>ไม่ยกเว้น</option>
@@ -245,7 +245,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >Donate Serial Key</label><br>
+<label>Donate Serial Key</label><br>
   <div class="form-input">
         <input type="text" name="serial" >
     </div>
