@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.11
 // @description  tools that will help you see new items and make it easier for you to use the website to load bittorrent.
-// @author       NXTTZ
+// @author       akkradet
 // @icon         https://i.imgur.com/qTvfJSr.png
 // @match        https://www.siambit.me
 // @match        https://www.siambit.me/index.php*
