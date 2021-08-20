@@ -5,7 +5,7 @@ import category from "./category";
 
 class Setting {
     static key                        = 'COVER_NEXT';
-    static version                    = '1.0';
+    static version                    = '1.2';
     static serial                     = '1111';
     static cache                      = true;
     static cacheTimeout               = 604800;
