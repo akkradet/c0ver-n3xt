@@ -84,7 +84,7 @@ class Setting {
             return true;
         }
 
-        return false;
+        return true;
     };
 
     static panel() {
@@ -181,7 +181,7 @@ class Setting {
   <span>เฉพาะที่คุณดาวน์โหลดในเครื่องนี้เท่านั้นไม่ข้ามเครื่อง</span>
 </div>
 
-<div class="form-group donate">
+<div class="form-group">
 <label class="donate">[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว (ดึงจากรายการ)</label><br>
   <div class="form-input">
         <input type="radio" name="downloadedHook" value="on"> <span class="green">เปิด</span> 

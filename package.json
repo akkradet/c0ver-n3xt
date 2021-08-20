@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "tools that will help you see new items and make it easier for you to use the website to load bittorrent.",
   "main": "cover-next.js",
-  "repository": "https://github.com/kon3ko/cover-next",
-  "author": "Neko",
+  "repository": "https://github.com/NNNXT/cover-siambit/tree/main/cover-next-master",
+  "author": "NXTTZ",
   "license": "MIT",
   "scripts": {
     "dev": "webpack --mode=development",
