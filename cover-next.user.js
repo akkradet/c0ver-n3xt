@@ -16,7 +16,7 @@
 // @match        https://www.siambit.me/details.php*
 // @grant        GM_addStyle
 // @grant        GM_xmlhttpRequest
-// @require      https://raw.githubusercontent.com/akkradet/c0ver-n3xt/main/dist/cover-next.js
+// @require      https://raw.githubusercontent.com/akkradet/c0ver-n3xt/main/dist/cover-next.js?version=1.11
 // @updateURL    https://github.com/akkradet/c0ver-n3xt/raw/main/cover-next.user.js
 // @downloadURL  https://github.com/akkradet/c0ver-n3xt/raw/main/cover-next.user.js
 // @supportURL   https://github.com/kon3ko/cover-next/issues
