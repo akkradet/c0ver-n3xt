@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Cover Next VIP(Siambit)
 // @namespace    http://tampermonkey.net/
-// @version      1.11
+// @version      1.12
 // @description  tools that will help you see new items and make it easier for you to use the website to load bittorrent.
 // @author       akkradet
 // @icon         https://i.imgur.com/qTvfJSr.png
@@ -16,7 +16,7 @@
 // @match        https://www.siambit.me/details.php*
 // @grant        GM_addStyle
 // @grant        GM_xmlhttpRequest
-// @require      https://raw.githubusercontent.com/akkradet/c0ver-n3xt/main/dist/cover-next.js?version=1.11
+// @require      https://raw.githubusercontent.com/akkradet/c0ver-n3xt/main/dist/cover-next.js?version=1.12
 // @updateURL    https://github.com/akkradet/c0ver-n3xt/raw/main/cover-next.user.js
 // @downloadURL  https://github.com/akkradet/c0ver-n3xt/raw/main/cover-next.user.js
 // @supportURL   https://github.com/kon3ko/cover-next/issues
