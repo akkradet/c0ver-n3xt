@@ -98,10 +98,9 @@ class Setting {
             new Fancybox([{ src : '#setting-panel', type : 'inline' }]);
         });
         $('.setting-panel').html(`<div id="setting-panel">
-<h3>Cover Next</h3>
+<h3>Cover Next VIP</h3>
 <h5>Version: ${Setting.version}</h5>
-<h5>Github: <a href="https://github.com/kon3ko/cover-next" target="_blank">https://github.com/kon3ko/cover-next</a></h5>
-<h5>Donate, Report: <a href="https://m.me/100001345584902" target="_blank">https://m.me/100001345584902</a></h5>
+<h5>Github: <a href="https://github.com/akkradet/c0ver-n3xt" target="_blank">https://github.com/akkradet/c0ver-n3xt</a></h5>
 <br>
 <form id="form-setting">
 <div class="form-group">
@@ -121,8 +120,8 @@ class Setting {
     <span>เมื่อวางเมาส์ที่หน้าปก</span>
 </div>
 
-<div class="form-group donate">
-<label class="donate">[Donate Version] แสดงรูปใหญ่ (รายการ)</label><br>
+<div class="form-group">
+<label >[Donate Version] แสดงรูปใหญ่ (รายการ)</label><br>
   <div class="form-input">
         <input type="radio" name="titleHover" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="titleHover" value="off"> <span class="red">ปิด</span>
