@@ -6,7 +6,7 @@ import category from "./category";
 class Setting {
     static key                        = 'COVER_NEXT';
     static version                    = '1.0';
-    static serial                     = '';
+    static serial                     = '1111';
     static cache                      = true;
     static cacheTimeout               = 604800;
     static preview                    = true;
@@ -74,11 +74,11 @@ class Setting {
 
     static donateVersion() {
         if (Serial.check() !== Serial.dataReal()) {
-            Setting.album             = false;
-            Setting.downloaded        = false;
-            Setting.downloadedHook    = false;
-            Setting.titleHover        = false;
-            Setting.cleanDetailBanner = false;
+            Setting.album             = true;
+            Setting.downloaded        = true;
+            Setting.downloadedHook    = true;
+            Setting.titleHover        = true;
+            Setting.cleanDetailBanner = true;
             Setting.exceptCategories  = [];
 
             return true;
