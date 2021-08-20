@@ -98,10 +98,9 @@ class Setting {
             new Fancybox([{ src : '#setting-panel', type : 'inline' }]);
         });
         $('.setting-panel').html(`<div id="setting-panel">
-<h3>Cover Next</h3>
+<h3>Cover Next Cracked</h3>
 <h5>Version: ${Setting.version}</h5>
-<h5>Github: <a href="https://github.com/kon3ko/cover-next" target="_blank">https://github.com/kon3ko/cover-next</a></h5>
-<h5>Donate, Report: <a href="https://m.me/100001345584902" target="_blank">https://m.me/100001345584902</a></h5>
+<h5>Github: <a href="https://github.com/akkradet/c0ver-n3xt" target="_blank">https://github.com/akkradet/c0ver-n3xt</a></h5>
 <br>
 <form id="form-setting">
 <div class="form-group">
@@ -121,8 +120,8 @@ class Setting {
     <span>เมื่อวางเมาส์ที่หน้าปก</span>
 </div>
 
-<div class="form-group donate">
-<label class="donate">[Donate Version] แสดงรูปใหญ่ (รายการ)</label><br>
+<div class="form-group">
+<label >[Cracked Version] แสดงรูปใหญ่ (รายการ)</label><br>
   <div class="form-input">
         <input type="radio" name="titleHover" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="titleHover" value="off"> <span class="red">ปิด</span>
@@ -163,8 +162,8 @@ class Setting {
   <span>เฉพาะสมาชิกที่เป็น VIP เท่านั้น</span>
 </div>
 
-<div class="form-group donate">
-<label class="donate">[Donate Version] อัลบั้ม</label><br>
+<div class="form-group">
+<label >[Cracked Version] อัลบั้ม</label><br>
   <div class="form-input">
         <input type="radio" name="album" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="album" value="off"> <span class="red">ปิด</span>
@@ -172,8 +171,8 @@ class Setting {
   <span>คลิกที่รูปปกเพื่อใช้งาน</span>
 </div>
 
-<div class="form-group donate">
-<label class="donate">[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว</label><br>
+<div class="form-group">
+<label >[Cracked Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว</label><br>
   <div class="form-input">
         <input type="radio" name="downloaded" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="downloaded" value="off"> <span class="red">ปิด</span>
@@ -182,7 +181,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label class="donate">[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว (ดึงจากรายการ)</label><br>
+<label >[Cracked Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว (ดึงจากรายการ)</label><br>
   <div class="form-input">
         <input type="radio" name="downloadedHook" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="downloadedHook" value="off"> <span class="red">ปิด</span>
@@ -198,8 +197,8 @@ class Setting {
     </div>
 </div>
 
-<div class="form-group donate">
-<label class="donate">[Donate Version] ลบโฆษณา</label><br>
+<div class="form-group">
+<label >[Cracked Version] ลบโฆษณา</label><br>
   <div class="form-input">
         <input type="radio" name="cleanDetailBanner" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="cleanDetailBanner" value="off"> <span class="red">ปิด</span>
@@ -234,8 +233,8 @@ class Setting {
   <span>ทำงานเฉพาะในหน้ารายละเอียด</span>
 </div>
 
-<div class="form-group donate">
-<label class="donate">[Donate Version] หมวดหมู่ที่ยกเว้น</label><br>
+<div class="form-group">
+<label >[Cracked Version] หมวดหมู่ที่ยกเว้น</label><br>
   <div class="form-input">
         <select name="exceptCategories" multiple>
             <option>ไม่ยกเว้น</option>
@@ -246,7 +245,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >Donate Serial Key</label><br>
+<label >Cracked Serial Key</label><br>
   <div class="form-input">
         <input type="text" name="serial" >
     </div>
