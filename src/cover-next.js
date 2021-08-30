@@ -17,8 +17,8 @@ Setting.load();
 
 //working
 if ([
-    '/viewno18.php',
-    '/viewbr.php',
+    '/viewno18sb.php',
+    '/viewbrsb.php',
     '/upfinish.php',
 ].includes(window.location.pathname)) {
     let tr   = $('.mainouter center>table[width=\'100%\'] tr');
