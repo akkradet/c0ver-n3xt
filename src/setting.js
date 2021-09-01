@@ -81,12 +81,12 @@ class Setting {
 
     static donateVersion() {
         if (Serial.check() !== Serial.dataReal()) {
-            Setting.album             = false;
-            Setting.downloaded        = false;
-            Setting.downloadedHook    = false;
-            Setting.titleHover        = false;
-            Setting.cleanDetailBanner = false;
-            Setting.downloadFinish    = false;
+            Setting.album             = true;
+            Setting.downloaded        = true;
+            Setting.downloadedHook    = true;
+            Setting.titleHover        = true;
+            Setting.cleanDetailBanner = true;
+            Setting.downloadFinish    = true;
             Setting.exceptCategories  = [];
 
             return true;
@@ -130,7 +130,7 @@ class Setting {
 </div>
 
 <div class="form-group donate">
-<label class="donate">[Donate Version] แสดงรูปใหญ่ (รายการ)</label><br>
+<label>[Donate Version] แสดงรูปใหญ่ (รายการ)</label><br>
   <div class="form-input">
         <input type="radio" name="titleHover" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="titleHover" value="off"> <span class="red">ปิด</span>
@@ -172,7 +172,7 @@ class Setting {
 </div>
 
 <div class="form-group donate">
-<label class="donate">[Donate Version] อัลบั้ม</label><br>
+<label>[Donate Version] อัลบั้ม</label><br>
   <div class="form-input">
         <input type="radio" name="album" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="album" value="off"> <span class="red">ปิด</span>
@@ -181,7 +181,7 @@ class Setting {
 </div>
 
 <div class="form-group donate">
-<label class="donate">[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว</label><br>
+<label>[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว</label><br>
   <div class="form-input">
         <input type="radio" name="downloaded" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="downloaded" value="off"> <span class="red">ปิด</span>
@@ -190,7 +190,7 @@ class Setting {
 </div>
 
 <div class="form-group donate">
-<label class="donate">[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว (ย้อนหลัง)</label><br>
+<label>[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว (ย้อนหลัง)</label><br>
   <div class="form-input">
         <input type="radio" name="downloadFinish" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="downloadFinish" value="off"> <span class="red">ปิด</span>
@@ -207,7 +207,7 @@ class Setting {
 </div>
 
 <div class="form-group donate">
-<label class="donate">[Donate Version] ลบโฆษณา</label><br>
+<label>[Donate Version] ลบโฆษณา</label><br>
   <div class="form-input">
         <input type="radio" name="cleanDetailBanner" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="cleanDetailBanner" value="off"> <span class="red">ปิด</span>
@@ -243,7 +243,7 @@ class Setting {
 </div>
 
 <div class="form-group donate">
-<label class="donate">[Donate Version] หมวดหมู่ที่ยกเว้น</label><br>
+<label>[Donate Version] หมวดหมู่ที่ยกเว้น</label><br>
   <div class="form-input">
         <select name="exceptCategories" multiple>
             <option>ไม่ยกเว้น</option>
