@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Cover Next (Siambit)
+// @name         Cover Next (Siambit) crack
 // @namespace    http://tampermonkey.net/
-// @version      1.21
+// @version      1.32
 // @description  tools that will help you see new items and make it easier for you to use the website to load bittorrent.
 // @author       NEKO
 // @icon         https://i.imgur.com/qTvfJSr.png
@@ -19,8 +19,51 @@
 // @match        https://www.siambit.me/details.php*
 // @grant        GM_addStyle
 // @grant        GM_xmlhttpRequest
-// @require      https://raw.githubusercontent.com/akkradet/c0ver-n3xt/main/dist/cover-next.js?version=1.21
-// @updateURL    https://github.com/akkradet/c0ver-n3xt/raw/main/cover-next.user.js
-// @downloadURL  https://github.com/akkradet/c0ver-n3xt/raw/main/cover-next.user.js
-// @supportURL   https://github.com/akkradet/c0ver-n3xt/issues
+// @require      https://raw.githubusercontent.com/akkradet/c0ver-n3xt/main/dist/cover-next.js?version=1.32
+// @updateURL    https://raw.githubusercontent.com/akkradet/c0ver-n3xt/main/cover-next.user.js
+// @downloadURL  https://raw.githubusercontent.com/akkradet/c0ver-n3xt/main/cover-next.user.js
+// @supportURL   https://github.com/kon3ko/cover-next/issues
+// @connect      img.in.th
+// @connect      bpicc.cc
+// @connect      imgtrue.com
+// @connect      imdb.com
+// @connect      55xo.co
+// @connect      imgur.com
+// @connect      in.th
+// @connect      postto.me
+// @connect      javstore.net
+// @connect      i-pic.info
+// @connect      picstate.com
+// @connect      bpicc.com
+// @connect      roop.xyz
+// @connect      mpic.ws
+// @connect      img.live
+// @connect      shotcan.com
+// @connect      ibb.co
+// @connect      lmgbb.me
+// @connect      4shared.com
+// @connect      lookimg.com
+// @connect      gstatic.com
+// @connect      wp.com
+// @connect      steamstatic.com
+// @connect      tokopedia.net
+// @connect      4gamers.com.tw
+// @connect      imgbb.me
+// @connect      clip18zeed.com
+// @connect      mx7.com
+// @connect      youtube.com
+// @connect      youtube.be
+// @connect      8e88.in.th
+// @connect      clipxxx.live
+// @connect      i-pic.info
+// @connect      thaibuzz.com
+// @connect      imgmak.com
+// @connect      imgbb.me
+// @connect      picz.in.th
+// @connect      234.in.th
+// @connect      best-story.net
+// @connect      uppic.cc
+// @connect      uppicimg.com
+// @connect      uppic.xyz
+// @connect      *
 // ==/UserScript==
