@@ -120,7 +120,7 @@ class Setting {
             new Fancybox([{ src : '#setting-panel', type : 'inline' }]);
         });
         $('.setting-panel').html(`<div id="setting-panel">
-<h3>Cover Next Crack</h3>
+<h3>Cover Next</h3>
 <h5>Version: ${Setting.version}</h5>
 <h5>Github: <a href="https://github.com/kon3ko/cover-next" target="_blank">https://github.com/kon3ko/cover-next</a></h5>
 <h5>Donate, Report: <a href="https://m.me/100001345584902" target="_blank">https://m.me/100001345584902</a></h5>
@@ -144,7 +144,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >[Donate Version] แสดงรูปใหญ่ (รายการ)</label><br>
+<label>[Donate Version] แสดงรูปใหญ่ (รายการ)</label><br>
   <div class="form-input">
         <input type="radio" name="titleHover" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="titleHover" value="off"> <span class="red">ปิด</span>
@@ -179,14 +179,14 @@ class Setting {
 <div class="form-group">
 <label >ดาวน์โหลดด้วยปุ่ม VIP</label><br>
   <div class="form-input">
-        <input type="radio" name="downloadWithoutVip" value="on"> <span class="green">เปิด</span> 
-        <input type="radio" name="downloadWithoutVip" value="off"> <span class="red">ปิด</span>
+        <input type="radio" name="downloadWithoutVip" value="off"> <span class="green">เปิด</span> 
+        <input type="radio" name="downloadWithoutVip" value="on"> <span class="red">ปิด</span>
     </div>
   <span>เฉพาะสมาชิกที่เป็น VIP เท่านั้น</span>
 </div>
 
 <div class="form-group">
-<label >[Donate Version] อัลบั้ม</label><br>
+<label>[Donate Version] อัลบั้ม</label><br>
   <div class="form-input">
         <input type="radio" name="album" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="album" value="off"> <span class="red">ปิด</span>
@@ -195,7 +195,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว</label><br>
+<label>[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว</label><br>
   <div class="form-input">
         <input type="radio" name="downloaded" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="downloaded" value="off"> <span class="red">ปิด</span>
@@ -204,7 +204,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว (ย้อนหลัง)</label><br>
+<label>[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว (ย้อนหลัง)</label><br>
   <div class="form-input">
         <input type="radio" name="downloadFinish" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="downloadFinish" value="off"> <span class="red">ปิด</span>
@@ -221,7 +221,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >[Donate Version] ลบโฆษณา</label><br>
+<label>[Donate Version] ลบโฆษณา</label><br>
   <div class="form-input">
         <input type="radio" name="cleanDetailBanner" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="cleanDetailBanner" value="off"> <span class="red">ปิด</span>
@@ -257,7 +257,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >[Donate Version] หมวดหมู่ที่ยกเว้น</label><br>
+<label>[Donate Version] หมวดหมู่ที่ยกเว้น</label><br>
   <div class="form-input">
         <select name="exceptCategories" multiple>
             <option>ไม่ยกเว้น</option>
