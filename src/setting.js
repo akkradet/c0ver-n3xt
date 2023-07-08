@@ -95,12 +95,12 @@ class Setting {
 
     static donateVersion() {
         if (Serial.check() !== Serial.dataReal()) {
-            Setting.album             = true;
-            Setting.downloaded        = true;
-            Setting.downloadedHook    = true;
-            Setting.titleHover        = true;
-            Setting.cleanDetailBanner = true;
-            Setting.downloadFinish    = true;
+            Setting.album             = false;
+            Setting.downloaded        = false;
+            Setting.downloadedHook    = false;
+            Setting.titleHover        = false;
+            Setting.cleanDetailBanner = false;
+            Setting.downloadFinish    = false;
             Setting.exceptCategories  = [];
 
             return true;
@@ -120,7 +120,7 @@ class Setting {
             new Fancybox([{ src : '#setting-panel', type : 'inline' }]);
         });
         $('.setting-panel').html(`<div id="setting-panel">
-<h3>Cover Next</h3>
+<h3>Cover Next Cracked</h3>
 <h5>Version: ${Setting.version}</h5>
 <h5>Github: <a href="https://github.com/kon3ko/cover-next" target="_blank">https://github.com/kon3ko/cover-next</a></h5>
 <h5>Donate, Report: <a href="https://m.me/100001345584902" target="_blank">https://m.me/100001345584902</a></h5>
@@ -143,8 +143,8 @@ class Setting {
     <span>เมื่อวางเมาส์ที่หน้าปก</span>
 </div>
 
-<div class="form-group">
-<label>[Donate Version] แสดงรูปใหญ่ (รายการ)</label><br>
+<div class="form-group donate">
+<label >[Donate Version] แสดงรูปใหญ่ (รายการ)</label><br>
   <div class="form-input">
         <input type="radio" name="titleHover" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="titleHover" value="off"> <span class="red">ปิด</span>
@@ -160,13 +160,13 @@ class Setting {
     </div>
 </div>
 
-<div class="form-group">
-<label >ขอบคุณอัตโนมัติ (หน้ารายการ)</label><br>
-  <div class="form-input">
-        <input type="radio" name="autoThankHook" value="on"> <span class="green">เปิด</span> 
-        <input type="radio" name="autoThankHook" value="off"> <span class="red">ปิด</span>
-    </div>
-</div>
+<!--<div class="form-group">-->
+<!--<label >ขอบคุณอัตโนมัติ (หน้ารายการ)</label><br>-->
+<!--  <div class="form-input">-->
+<!--        <input type="radio" name="autoThankHook" value="on"> <span class="green">เปิด</span> -->
+<!--        <input type="radio" name="autoThankHook" value="off"> <span class="red">ปิด</span>-->
+<!--    </div>-->
+<!--</div>-->
 
 <div class="form-group">
 <label >ขอบคุณอัตโนมัติ (หน้ารายละเอียด)</label><br>
@@ -186,7 +186,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label>[Donate Version] อัลบั้ม</label><br>
+<label >[Donate Version] อัลบั้ม</label><br>
   <div class="form-input">
         <input type="radio" name="album" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="album" value="off"> <span class="red">ปิด</span>
@@ -195,7 +195,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label>[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว</label><br>
+<label >[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว</label><br>
   <div class="form-input">
         <input type="radio" name="downloaded" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="downloaded" value="off"> <span class="red">ปิด</span>
@@ -204,7 +204,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label>[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว (ย้อนหลัง)</label><br>
+<label >[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว (ย้อนหลัง)</label><br>
   <div class="form-input">
         <input type="radio" name="downloadFinish" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="downloadFinish" value="off"> <span class="red">ปิด</span>
@@ -221,7 +221,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label>[Donate Version] ลบโฆษณา</label><br>
+<label >[Donate Version] ลบโฆษณา</label><br>
   <div class="form-input">
         <input type="radio" name="cleanDetailBanner" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="cleanDetailBanner" value="off"> <span class="red">ปิด</span>

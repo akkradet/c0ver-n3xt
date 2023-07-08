@@ -68,7 +68,19 @@ class Thank {
         let a = $('#saythanks a', element);
 
         if (a) {
-            eval(a.attr('onclick'));
+            const onclick = a.attr('onclick');
+            if(onclick){
+                const id   = onclick.match(/sndReq\('action=say_thanks&id=(\d+)'/);
+                $.ajax({
+                    url: '/ajax.php',
+                    type: 'GET',
+                    data: 'action=say_thanks&id=' + id[1],
+                    success: function (data) {
+                        Log('send thank success.');
+                        $('#saythanks').html(data);
+                    }
+                });
+            }
         }
 
         Log('Done');

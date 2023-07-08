@@ -72,6 +72,12 @@ if ([
         //downloaded
         if (Cache.downloaded[ data.detailId ] !== undefined) Download.downloaded({ data });
 
+        //remove bg first column
+        const columnColor = $(data.td.get(0)).attr('bgcolor');
+        if(!/^#[0-9A-F]{6}$/i.test(columnColor)) {
+            $(data.td.get(0)).attr('bgcolor', '');
+        }
+
         //row
         rows.push({
             data   : data,
@@ -91,6 +97,9 @@ if ([
         let downloadFinish = new DownloadFinish({ auth : auth });
         downloadFinish.init({ rows });
     }
+
+    //clean logo
+    Clean.logo();
 }
 
 //detail
@@ -123,7 +132,7 @@ if (window.location.pathname === '/details.php') {
 //download finish
 if (Setting.downloadFinish === true) {
     if (window.location.pathname === '/downfinish.php') {
-        let downloadFinish = new DownloadFinish({ auth : auth ,statusBar : statusBar});
+        let downloadFinish = new DownloadFinish({ auth : auth });
         downloadFinish.passData({ html : document.body });
     }
 }
