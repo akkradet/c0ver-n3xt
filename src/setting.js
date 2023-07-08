@@ -143,8 +143,8 @@ class Setting {
     <span>เมื่อวางเมาส์ที่หน้าปก</span>
 </div>
 
-<div class="form-group donate">
-<label >[Donate Version] แสดงรูปใหญ่ (รายการ)</label><br>
+<div class="form-group">
+<label >[Crack Version] แสดงรูปใหญ่ (รายการ)</label><br>
   <div class="form-input">
         <input type="radio" name="titleHover" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="titleHover" value="off"> <span class="red">ปิด</span>
@@ -186,7 +186,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >[Donate Version] อัลบั้ม</label><br>
+<label >[Crack Version] อัลบั้ม</label><br>
   <div class="form-input">
         <input type="radio" name="album" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="album" value="off"> <span class="red">ปิด</span>
@@ -195,7 +195,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว</label><br>
+<label >[Crack Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว</label><br>
   <div class="form-input">
         <input type="radio" name="downloaded" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="downloaded" value="off"> <span class="red">ปิด</span>
@@ -204,7 +204,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >[Donate Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว (ย้อนหลัง)</label><br>
+<label >[Crack Version] เปลี่ยนชื่อเป็นสีเทาหากโหลดไปแล้ว (ย้อนหลัง)</label><br>
   <div class="form-input">
         <input type="radio" name="downloadFinish" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="downloadFinish" value="off"> <span class="red">ปิด</span>
@@ -221,7 +221,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >[Donate Version] ลบโฆษณา</label><br>
+<label >[Crack Version] ลบโฆษณา</label><br>
   <div class="form-input">
         <input type="radio" name="cleanDetailBanner" value="on"> <span class="green">เปิด</span> 
         <input type="radio" name="cleanDetailBanner" value="off"> <span class="red">ปิด</span>
@@ -257,7 +257,7 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label>[Donate Version] หมวดหมู่ที่ยกเว้น</label><br>
+<label>[Crack Version] หมวดหมู่ที่ยกเว้น</label><br>
   <div class="form-input">
         <select name="exceptCategories" multiple>
             <option>ไม่ยกเว้น</option>
@@ -268,11 +268,11 @@ class Setting {
 </div>
 
 <div class="form-group">
-<label >Donate Serial Key</label><br>
+<label >Crack</label><br>
   <div class="form-input">
         <input type="text" name="serial" >
     </div>
-  <span>ใส่ซีเรียลคีย์เพื่อเปิดใช้ Donate Version</span>
+  <span>Crack Version</span>
 </div>
   
 </form> 
