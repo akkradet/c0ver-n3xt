@@ -106,7 +106,7 @@ class Setting {
             return true;
         }
 
-        return false;
+        return true;
     };
 
     static panel() {
