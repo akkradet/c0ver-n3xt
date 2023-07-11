@@ -19,10 +19,10 @@
 // @match        https://www.siambit.me/details.php*
 // @grant        GM_addStyle
 // @grant        GM_xmlhttpRequest
-// @require      https://github.com/akkradet/c0ver-n3xt/raw/main/dist/cover-next.js?version=1.39.5
-// @updateURL    https://github.com/akkradet/c0ver-n3xt/raw/main/dist/cover-next.js
-// @downloadURL  https://github.com/akkradet/c0ver-n3xt/raw/main/dist/cover-next.js
-// @supportURL   https://github.com/akkradet/c0ver-n3xt/issues
+// @require      https://raw.githubusercontent.com/akkradet/c0ver-n3xt/main/dist/cover-next.js?version=1.39
+// @updateURL    https://raw.githubusercontent.com/akkradet/c0ver-n3xt/main/cover-next.user.js
+// @downloadURL  https://raw.githubusercontent.com/akkradet/c0ver-n3xt/main/cover-next.user.js
+// @supportURL   https://github.com/kon3ko/cover-next/issues
 // @connect      img.in.th
 // @connect      bpicc.cc
 // @connect      imgtrue.com
