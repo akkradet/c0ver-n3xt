@@ -19,9 +19,9 @@
 // @match        https://www.siambit.me/details.php*
 // @grant        GM_addStyle
 // @grant        GM_xmlhttpRequest
-// @require      https://github.com/akkradet/c0ver-n3xt/raw/main/cover-next.user.jshttps://github.com/akkradet/c0ver-n3xt/raw/main/cover-next.user.js?version=1.390
-// @updateURL    https://raw.githubusercontent.com/kon3ko/cover-next/master/cover-next.user.js
-// @downloadURL  https://raw.githubusercontent.com/kon3ko/cover-next/master/cover-next.user.js
+// @require      https://raw.githubusercontent.com/akkradet/c0ver-n3xt/master/cover-next.user.js?version=1.390
+// @updateURL    https://raw.githubusercontent.com/akkradet/c0ver-n3xt/master/cover-next.user.js
+// @downloadURL  https://raw.githubusercontent.com/akkradet/c0ver-n3xt/master/cover-next.user.js
 // @supportURL   https://github.com/kon3ko/cover-next/issues
 // @connect      img.in.th
 // @connect      bpicc.cc
