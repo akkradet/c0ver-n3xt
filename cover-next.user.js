@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Cover Next (Siambit) Crack
 // @namespace    http://tampermonkey.net/
-// @version      1.40
+// @version      1.39.5
 // @description  tools that will help you see new items and make it easier for you to use the website to load bittorrent.
 // @author       NEKO
 // @icon         https://i.imgur.com/qTvfJSr.png
@@ -19,7 +19,7 @@
 // @match        https://www.siambit.me/details.php*
 // @grant        GM_addStyle
 // @grant        GM_xmlhttpRequest
-// @require      https://github.com/akkradet/c0ver-n3xt/raw/main/cover-next.user.js?version=1.40
+// @require      https://github.com/akkradet/c0ver-n3xt/raw/main/cover-next.user.js?version=1.39.5
 // @updateURL    https://github.com/akkradet/c0ver-n3xt/raw/main/cover-next.user.js
 // @downloadURL  https://github.com/akkradet/c0ver-n3xt/raw/main/cover-next.user.js
 // @supportURL   https://github.com/akkradet/c0ver-n3xt/issues
