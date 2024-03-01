@@ -5,15 +5,6 @@ class Clean {
     constructor( { element } ) {
         //detail
         this.detail(element);
-
-        //logo
-        Clean.logo();
-    }
-
-    static logo(){
-        if (Setting.cleanLogo) {
-            $('img[src="include/logo_siambit.gif"]').remove();
-        }
     }
 
     detail( element ) {
@@ -37,7 +28,21 @@ class Clean {
                        }
                    });
                 }
+                if(text === 'ScreenShot'){
+                    const trLeft = $('td[align="left"]', $(item).parent());
+                    const a = $('a', trLeft);
+
+                    if(a.length === 2){
+                        a.eq(0).remove();
+                        $('br', trLeft).remove();
+                    }
+                }
             })
+        }
+
+        //remove br in column download when bookmark and promote is removed
+        if (Setting.cleanDetailBookmarks && Setting.cleanDetailPromote){
+            $('br', $('tbody>tr:eq(0)>td:eq(1)', element)).remove();
         }
 
         if (Setting.cleanDetailDownloadImage) {
