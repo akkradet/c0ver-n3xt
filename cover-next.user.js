@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Cover Next (Bearbit) Cracked
+// @name         Cover Next (Bearbit)
 // @namespace    http://tampermonkey.net/
-// @version      2.00
+// @version      2.16
 // @description  tools that will help you see new items and make it easier for you to use the website to load bittorrent.
 // @author       NEKO
 // @icon         https://i.imgur.com/qTvfJSr.png
@@ -10,6 +10,7 @@
 // @match        https://www.bearbit.co/viewno18.php*
 // @match        https://www.bearbit.co/viewbr.php*
 // @match        https://www.bearbit.co/viewno18sb.php*
+// @match        https://www.bearbit.co/viewno18sbx.php*
 // @match        https://www.bearbit.co/viewbrsb.php*
 // @match        https://www.bearbit.co/torrent_day.php*
 // @match        https://www.bearbit.co/torrent_week.php*
@@ -22,6 +23,7 @@
 // @match        https://bearbit.co/viewno18.php*
 // @match        https://bearbit.co/viewbr.php*
 // @match        https://bearbit.co/viewno18sb.php*
+// @match        https://bearbit.co/viewno18sbx.php*
 // @match        https://bearbit.co/viewbrsb.php*
 // @match        https://bearbit.co/torrent_day.php*
 // @match        https://bearbit.co/torrent_week.php*
